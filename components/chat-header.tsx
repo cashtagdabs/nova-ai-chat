@@ -46,6 +46,7 @@ export function ChatHeader() {
             variant="ghost"
             size="icon"
             aria-label="View source on GitHub"
+            className="border border-white/20 hover:border-white/40"
           >
             <a href={GITHUB_REPO_URL} target="_blank" rel="noopener noreferrer">
               <GithubMark className="h-[18px] w-[18px]" />
@@ -57,6 +58,7 @@ export function ChatHeader() {
             size="icon"
             onClick={toggleTheme}
             aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+            className="border border-white/20 hover:border-white/40"
           >
             {theme === "dark" ? (
               <Sun className="h-[18px] w-[18px]" />

@@ -80,7 +80,7 @@ export function Composer({ status, onSend, onStop }: ComposerProps) {
               variant="secondary"
               onClick={onStop}
               aria-label="Stop generating"
-              className="shrink-0"
+              className="h-10 w-10 shrink-0 rounded-full border border-white/20 ring-1 ring-border/50 hover:border-white/40"
             >
               <Square className="h-4 w-4 fill-current" />
             </Button>
@@ -88,10 +88,9 @@ export function Composer({ status, onSend, onStop }: ComposerProps) {
             <Button
               type="submit"
               size="icon"
-              variant="gradient"
               disabled={!value.trim()}
               aria-label="Send message"
-              className="shrink-0"
+              className="h-10 w-10 shrink-0 rounded-full bg-gradient-to-br from-primary to-accent text-primary-foreground shadow-lg shadow-primary/30 ring-1 ring-white/25 transition-all hover:shadow-primary/40 hover:brightness-105 disabled:shadow-none"
             >
               <ArrowUp className="h-5 w-5" />
             </Button>
