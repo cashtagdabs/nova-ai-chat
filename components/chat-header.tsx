@@ -7,7 +7,7 @@ import { NovaLogo } from "@/components/nova-logo";
 import { useTheme } from "@/components/theme-provider";
 
 // Public repo URL — surfaced in the header for the portfolio context.
-const GITHUB_REPO_URL = "https://github.com/nova-ai-chat";
+const GITHUB_REPO_URL = "https://github.com/cashtagdabs/nova-ai-chat";
 
 /** Inline GitHub mark (lucide v1 no longer ships brand icons). */
 function GithubMark({ className }: { className?: string }) {
